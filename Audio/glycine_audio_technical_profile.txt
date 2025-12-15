@@ -1,0 +1,33 @@
+Glycine Sonification Audio – Technical Profile
+File: glycine_evaporation_zwitterion_5min.wav
+
+Quick technical profile
+
+From the file:
+    • Sampling rate: 22,050 Hz
+    • Channels: stereo
+    • Exact duration: 300 seconds = 5:00 minutes
+    • Overall level:
+        • RMS ≈ 0.095 (on a –1 to +1 scale) → moderate loudness
+        • Peak ≈ 0.70 → no brutal clipping spikes
+
+Frequency content (averaged over the whole 5 min):
+
+Approximate power distribution:
+    • 0–20 Hz: essentially negligible
+    • 20–60 Hz: very low
+    • 60–200 Hz: ~30% of total power
+    • 200–1000 Hz: ~70% of total power
+    • >1 kHz: almost nothing
+
+So:
+    • The spectral centroid / median is around 260 Hz.
+    • It’s a mid-band, body-friendly profile:
+        • no big sub-bass rumble,
+        • almost no bright, sharp treble.
+
+The loudness envelope over 1-second windows:
+    • RMS ranges roughly from 0.03 → 0.19, averaging ≈ 0.09.
+    • So there’s breathing-like variation, but not violent jumps.
+
+Comparing 1-second segments across the file, the correlation with the first second drops quickly — the pattern is structured but not a tight, looped beat.
