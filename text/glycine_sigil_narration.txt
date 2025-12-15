@@ -1,0 +1,7 @@
+You are watching the vibrational fingerprint of the glycine molecule, pronounced GLY-sin.
+
+Each point is a real vibrational mode: its distance from the center encodes how fast it moves, its position around the circle shows which part of the molecule is vibrating, and its brightness reflects how strong that motion is in time.
+
+The outer ring corresponds to the fast N–H and C–H stretches, the middle ring to the carboxylate and backbone, and the inner ring to slower skeletal modes.
+
+Over five minutes, the whole pattern turns once around its center while the groups fade in sequence: the outer ring speaks first, the backbone follows, and finally the deep skeletal vibrations close the animation.
