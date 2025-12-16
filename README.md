@@ -104,7 +104,7 @@ This script (or an equivalent `ffmpeg` command inside it) will mux the narration
 
 A citable, versioned archive of this repository (code, audio, video, and text files) is provided via Zenodo:
 
-- DOI: `[ZENODO_DOI]`
+- DOI: `[DOI 10.5281/zenodo.17948540]`
 
 The GitHub repository and the Zenodo snapshot contain the same core materials. The manuscript cites the Zenodo record as the primary data and code availability reference.
 
@@ -126,7 +126,7 @@ You are free to share and adapt the audio and video materials for **non-commerci
 
 If you use this repository or its derived stimuli in academic work, please cite the Zenodo record, for example:
 
-> AbdAlhamid MM. Zwitterionic glycine vibrational sonification and sleep-linked audio–visual stimuli (code, audio, sigil) [Dataset]. Zenodo. 2025. DOI: 10.5281/zenodo.[XXXXXXX].
+> AbdAlhamid MM. Zwitterionic glycine vibrational sonification and sleep-linked audio–visual stimuli (code, audio, sigil) [Dataset]. Zenodo. 2025. DOI: 10.5281/zenodo.[17948540].
 
 In addition, please cite the main manuscript describing the methods and results once published.
 
