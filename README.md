@@ -13,13 +13,13 @@ The materials are intended for researchers interested in:
 
 A suggested structure for this repository is:
 
-- `code/`
+- `Code/`
   - Python scripts used to generate the audio stimuli and sigil videos, for example:
     - `glycine_evaporation_zwitterion_5min.py`
     - `glycine_sigil_evaporation_5min_rotating_legend.py`
     - `glycine_sigil_narration.py`
     - `glycine_combine_video_audio.py`
-- `audio/`
+- `Audio/`
   - Exported WAV files, e.g.:
     - `glycine_evaporation_zwitterion_5min.wav`
     - `glycine_sigil_narration.wav`
@@ -30,10 +30,6 @@ A suggested structure for this repository is:
 - `text/`
   - Narration script and any supplementary text files:
     - `glycine_sigil_narration.txt`
-- `docs/`
-  - Optional: short PDF/markdown description of methods, parameter tables, or figures.
-
-You can adapt the exact filenames to match the manuscript and Zenodo record.
 
 ---
 
@@ -61,7 +57,7 @@ You may also need a working `ffmpeg` installation available on your system path.
 
 ## Reproducing the audio stimulus
 
-1. Navigate to the `code/` folder.
+1. Navigate to the `Code/` folder.
 2. Run the glycine evaporation script, for example:
 
 ```bash
@@ -80,7 +76,7 @@ Please refer to the inline comments in the script for parameter details (amplitu
 
 ## Reproducing the rotating sigil
 
-1. Navigate to the `code/` folder.
+1. Navigate to the `Code/` folder.
 2. Run the sigil generation script:
 
 ```bash
@@ -112,15 +108,13 @@ A citable, versioned archive of this repository (code, audio, video, and text fi
 
 The GitHub repository and the Zenodo snapshot contain the same core materials. The manuscript cites the Zenodo record as the primary data and code availability reference.
 
-Replace `[ZENODO_DOI]` with the actual DOI once the Zenodo record is created.
-
 ---
 
 ## Licensing
 
 - **Code (Python scripts and parameter files)**: MIT License (see `LICENSE`).
 - **Manuscript-style text and static figures (if included)**: CC BY 4.0.
-- **Audio and video stimuli (WAV and MP4 files)**: CC BY-NC 4.0 (see `LICENSE_media.txt`).
+- **Audio and video stimuli (WAV and MP4 files)**: CC BY-NC 4.0 (see `LICENSE`).
 
 You are free to share and adapt the audio and video materials for **non-commercial** purposes, provided you give appropriate credit and indicate if changes were made.
 
@@ -133,8 +127,6 @@ You are free to share and adapt the audio and video materials for **non-commerci
 If you use this repository or its derived stimuli in academic work, please cite the Zenodo record, for example:
 
 > AbdAlhamid MM. Zwitterionic glycine vibrational sonification and sleep-linked audio–visual stimuli (code, audio, sigil) [Dataset]. Zenodo. 2025. DOI: 10.5281/zenodo.[XXXXXXX].
-
-Update the year and DOI to match the actual Zenodo record.
 
 In addition, please cite the main manuscript describing the methods and results once published.
 
