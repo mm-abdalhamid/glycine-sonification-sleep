@@ -104,7 +104,7 @@ This script (or an equivalent `ffmpeg` command inside it) will mux the narration
 
 A citable, versioned archive of this repository (code, audio, video, and text files) is provided via Zenodo:
 
-- DOI: `[DOI 10.5281/zenodo.17948540]`
+- DOI: `[10.5281/zenodo.17948540]`
 
 The GitHub repository and the Zenodo snapshot contain the same core materials. The manuscript cites the Zenodo record as the primary data and code availability reference.
 
