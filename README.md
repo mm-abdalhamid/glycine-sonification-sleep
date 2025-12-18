@@ -101,6 +101,24 @@ This script (or an equivalent `ffmpeg` command inside it) will mux the narration
 
 ---
 
+### For experimenters (prototype use only)
+
+The glycine sonification and sigil in this repository are **prototype stimuli** intended for exploratory research on pre-sleep state and thermoregulation.  
+They are **not** medical treatments and have **no established efficacy**.
+
+Very short guidance:
+
+- Use first in **healthy adults** under an approved protocol.
+- Play the **5-minute audio once, 30–60 min before usual bedtime**.
+- Prefer **chest-level speakers** or near-field monitors at comfortable, conversational loudness; avoid high-volume headphones.
+- Always compare against at least one **control condition** (e.g. spectrally matched random sound, noise, or usual routine).
+- Focus on **exploratory outcomes** such as subjective thermal comfort, simple sleep diaries, actigraphy, and basic cardiovascular / skin-temperature markers if available.
+
+For a more detailed, non-prescriptive guide to possible study designs and outcome measures, see:  
+`docs/for_experimenters.md`
+
+---
+
 ## Data and code availability
 
 A citable, versioned archive of this repository (code, audio, video, and text files) is provided via Zenodo:
