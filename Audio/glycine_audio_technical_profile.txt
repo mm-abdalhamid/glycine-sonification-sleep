@@ -1,5 +1,5 @@
 Glycine Sonification Audio – Technical Profile
-File: glycine_evaporation_zwitterion_5min.wav
+File: glycine_evaporation_zwitterion_5min.wav (evaporation-only legacy stimulus)
 
 Quick technical profile
 
@@ -8,7 +8,7 @@ From the file:
     • Channels: stereo
     • Exact duration: 300 seconds = 5:00 minutes
     • Overall level:
-        • RMS ≈ 0.095 (on a –1 to +1 scale) → moderate loudness
+        • RMS ≈ 0.095 (on a -1 to +1 scale) → moderate loudness
         • Peak ≈ 0.70 → no brutal clipping spikes
 
 Frequency content (averaged over the whole 5 min):
@@ -22,12 +22,19 @@ Approximate power distribution:
 
 So:
     • The spectral centroid / median is around 260 Hz.
-    • It’s a mid-band, body-friendly profile:
+    • It is a mid-band, body-friendly profile:
         • no big sub-bass rumble,
         • almost no bright, sharp treble.
 
 The loudness envelope over 1-second windows:
     • RMS ranges roughly from 0.03 → 0.19, averaging ≈ 0.09.
-    • So there’s breathing-like variation, but not violent jumps.
+    • So there is breathing-like variation, but not violent jumps.
 
-Comparing 1-second segments across the file, the correlation with the first second drops quickly — the pattern is structured but not a tight, looped beat.
+Comparing 1-second segments across the file, the correlation with the first second drops quickly —
+the pattern is structured but not a tight, looped beat.
+
+Note on PK-based stimulus:
+    • The main manuscript stimulus `glycine_evaporation_zwitterion_5min_pk_kinetic.wav` uses the same
+      vibrational mapping and 5-minute duration, but its amplitude is shaped by a compressed oral
+      pharmacokinetic envelope. Its exact statistics will differ slightly, but it retains the same
+      general mid-band, non-harsh profile.
