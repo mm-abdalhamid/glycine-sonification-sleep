@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="docs/assets/glycine_pk_logo_256.png"
+       alt="Glycine PK sigil logo" width="200">
+</p>
 # Glycine Vibrational Sonification and Sleep-Linked Stimuli
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17948540.svg)](https://doi.org/10.5281/zenodo.17948540)
 
@@ -173,7 +177,8 @@ In addition, please cite the main manuscript describing the methods and results 
 
 Except where a specific open license is indicated in the *Licensing* section above (MIT, CC BY 4.0, or CC BY-NC 4.0), all other rights in this repository are reserved by the author. Any use outside the scope of those licenses requires prior written permission from the corresponding author.
 
-- **Logo:** Glycine PK sigil logo copyright (c) 2025 M M abdAlhamid.  All rights reserved; see LOGO_LICENSE.txt.
+- **Logo:** Glycine PK sigil logo copyright (c) 2025 M M abdAlhamid.
+- All rights reserved; see LOGO_LICENSE.txt.
 
 ---
 
