@@ -12,12 +12,14 @@ The materials are intended for researchers interested in:
 
 ## Repository structure
 
-A suggested structure for this repository is:
+This repository is organized as:
 
 - `Code/`
   - Python scripts used to generate the audio stimuli and sigil videos, for example:
-    - `glycine_evaporation_zwitterion_5min.py`
-    - `glycine_sigil_evaporation_5min_rotating_legend.py`
+    - `glycine_evaporation_zwitterion_5min_pk_kinetic_licensed.py`  # main five-minute PK-based stimulus
+    - `glycine_evaporation_zwitterion_5min.py`  # original evaporation-only prototype
+    - `glycine_sigil_pk_5min_rotating_licensed.py`  # PK-envelope rotating sigil
+    - `glycine_sigil_evaporation_5min_rotating_legend.py`  # original evaporation-based sigil (legacy)
     - `glycine_sigil_narration.py`
     - `glycine_combine_video_audio.py`
 - `Audio/`
@@ -59,17 +61,25 @@ You may also need a working `ffmpeg` installation available on your system path.
 ## Reproducing the audio stimulus
 
 1. Navigate to the `Code/` folder.
-2. Run the glycine evaporation script, for example:
+2. Run the PK-based glycine evaporation script:
+
+```bash
+python glycine_evaporation_zwitterion_5min_pk_kinetic_licensed.py
+```
+
+3. The script will:
+   - Load the predefined vibrational peak list for zwitterionic glycine.
+   - Map peaks to audio frequencies and apply the pharmacokinetic (PK) envelope described in the manuscript.
+   - Render a five-minute stereo WAV file.
+4. The output file (e.g. `glycine_evaporation_zwitterion_5min_pk_kinetic.wav`) will be placed in the `audio/` directory.
+
+If you wish to reproduce the original evaporation-only prototype instead, you can run:
 
 ```bash
 python glycine_evaporation_zwitterion_5min.py
 ```
 
-3. The script will:
-   - Load the predefined vibrational peak list for zwitterionic glycine.
-   - Map peaks to audio frequencies and envelopes.
-   - Render a five-minute stereo WAV file.
-4. The output file (e.g. `glycine_evaporation_zwitterion_5min.wav`) will be placed in the `audio/` directory.
+This legacy script uses the same vibrational mapping but a simpler evaporation-style amplitude envelope, without a pharmacokinetic model.
 
 Please refer to the inline comments in the script for parameter details (amplitude, envelopes, fade-in/out, and any evaporation-style modulation).
 
@@ -81,15 +91,18 @@ Please refer to the inline comments in the script for parameter details (amplitu
 2. Run the sigil generation script:
 
 ```bash
-python glycine_sigil_evaporation_5min_rotating_legend.py
+python glycine_sigil_pk_5min_rotating_licensed.py
 ```
 
-This script generates a five-minute MP4 video of the glycine-derived sigil with a rotating layout and legend, saving it to the `video/` directory (e.g. `sigil_5min_vib_only.mp4`).
+This script generates a five-minute MP4 video of the glycine sigil using the same PK envelope (and one slow rotation), writing it to the `video/` directory (e.g. `sigil_5min_vib_only.mp4`).
 
 To add narration to the sigil:
 
 1. Ensure you have:
    - The narration audio file in `audio/` (e.g. `glycine_sigil_narration.wav`)
+
+The original evaporation-based sigil script (`glycine_sigil_evaporation_5min_rotating_legend.py`)
+is also included for historical and comparative purposes.
    - The silent sigil video in `video/` (e.g. `sigil_5min_vib_only.mp4`)
 2. Run the combination script:
 
