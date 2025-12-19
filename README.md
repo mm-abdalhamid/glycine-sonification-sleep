@@ -2,7 +2,7 @@
   <img src="docs/assets/glycine_pk_logo_256.png"
        alt="Glycine PK sigil logo" width="200">
 </p>
-# Glycine Vibrational Sonification and Sleep-Linked Stimuli
+ Glycine Vibrational Sonification and Sleep-Linked Stimuli
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17948540.svg)](https://doi.org/10.5281/zenodo.17948540)
 
