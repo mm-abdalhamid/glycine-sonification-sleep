@@ -1,0 +1,91 @@
+Glycine Vibrational Sonification and Sigil Project – License Bundle
+Author: M M abdAlhamid
+Year: 2025
+
+This file summarizes the licensing terms for different components of the project.
+
+============================================================
+1. Code License (MIT) – applies to /code/
+============================================================
+
+Copyright (c) 2025 M M abdAlhamid
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+============================================================
+2. Manuscript and Figures – CC BY 4.0 – applies to /manuscript/
+============================================================
+
+The manuscript text and static figures are released under the
+Creative Commons Attribution 4.0 International License (CC BY 4.0).
+
+You are free to:
+  - Share: copy and redistribute the material in any medium or format.
+  - Adapt: remix, transform, and build upon the material for any purpose,
+    even commercially.
+
+Under the following terms:
+  - Attribution: You must give appropriate credit, provide a link to the
+    license, and indicate if changes were made.
+
+Components covered: all PDFs and image files in /manuscript/.
+
+For full license text, see: https://creativecommons.org/licenses/by/4.0/
+
+============================================================
+3. Audio, Sigil, and Narration – CC BY-NC 4.0 – applies to /audio/, /sigil/, /narration/
+============================================================
+
+The audio stimuli, visual sigil videos, and narration recordings are released under the
+Creative Commons Attribution–NonCommercial 4.0 International License (CC BY-NC 4.0).
+
+You are free to:
+  - Share: copy and redistribute the material in any medium or format.
+  - Adapt: remix, transform, and build upon the material.
+
+Under the following terms:
+  - Attribution: You must give appropriate credit, provide a link to the license,
+    and indicate if changes were made.
+  - NonCommercial: You may not use the material for commercial purposes without
+    explicit written permission from the copyright holder.
+
+Additional protection:
+  “The glycine audio evaporation sequence and vibrational sigil may not be used to
+   create derivative therapeutic, relaxation, or commercial sound products without
+   written permission.”
+
+Components covered:
+  - /audio/: all WAV or other audio files containing the glycine sonification.
+  - /sigil/: all MP4/PNG or other media files containing the visual sigil.
+  - /narration/: narration text and audio files.
+
+For full license text, see: https://creativecommons.org/licenses/by-nc/4.0/
+
+============================================================
+4. Summary
+============================================================
+
+- /code/       → MIT License
+- /manuscript/ → CC BY 4.0
+- /audio/      → CC BY-NC 4.0
+- /sigil/      → CC BY-NC 4.0
+- /narration/  → CC BY-NC 4.0
+
+© 2025 M M abdAlhamid. All rights reserved except where licenses above explicitly permit reuse.
