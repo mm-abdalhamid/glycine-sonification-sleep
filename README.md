@@ -34,6 +34,9 @@ This repository is organized as:
 - `text/`
   - Narration script and any supplementary text files:
     - `glycine_sigil_narration.txt`
+- `docs/`
+  - This note is written for researchers who may want to test the glycine sonification and sigil as experimental stimuli:
+    - `for_experimenters.md`
 ---
 
 ## Requirements
