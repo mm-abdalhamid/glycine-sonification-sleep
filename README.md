@@ -21,7 +21,6 @@ This repository is organized as:
     - `glycine_sigil_pk_5min_rotating_licensed.py`  # PK-envelope rotating sigil
     - `glycine_sigil_evaporation_5min_rotating_legend.py`  # original evaporation-based sigil (legacy)
     - `glycine_sigil_narration.py`
-    - `glycine_combine_video_audio.py`
 - `Audio/`
   - Exported WAV files, e.g.:
     - `glycine_evaporation_zwitterion_5min_pk_kinetic.wav`  # main PK-based stimulus
