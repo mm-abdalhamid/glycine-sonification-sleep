@@ -1,0 +1,10 @@
+Glycine PK sigil logo copyright (c) 2025 M M abdAlhamid. All rights reserved.
+
+The Glycine PK sigil logo (all files named glycine_pk_logo_*.png or
+glycine_pk_logo_*.svg, and any exact reproductions) is not covered by
+the MIT or Creative Commons licenses used elsewhere in this repository.
+
+You may reproduce the logo when accurately referring to this project
+or citing it in documentation, but you may not modify it or use it as
+a logo or brand for other products, services, or organizations without
+written permission from the author.
