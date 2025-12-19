@@ -24,16 +24,17 @@ This repository is organized as:
     - `glycine_combine_video_audio.py`
 - `Audio/`
   - Exported WAV files, e.g.:
-    - `glycine_evaporation_zwitterion_5min.wav`
-    - `glycine_sigil_narration.wav`
+    - `glycine_evaporation_zwitterion_5min_pk_kinetic.wav`  # main PK-based stimulus
+    - `glycine_evaporation_zwitterion_5min.wav`  # original evaporation-only prototype
+    - `glycine_sigil_narration.wav`  # narration audio track
 - `video/`
   - MP4 files of the sigil:
-    - `sigil_5min_vib_only.mp4`
-    - `sigil_5min_vib_narration.mp4`
+    - `glycine_sigil_pk_5min_rotating.mp4`  # PK-envelope rotating sigil
+    - `sigil_5min_vib_only_v2.mp4`  # vibration-only sigil (legacy)
+    - `sigil_5min_vib_narration_v2.mp4`  # narrated sigil (legacy)
 - `text/`
   - Narration script and any supplementary text files:
     - `glycine_sigil_narration.txt`
-
 ---
 
 ## Requirements
