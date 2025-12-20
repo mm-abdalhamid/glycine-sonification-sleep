@@ -1,8 +1,6 @@
 # Glycine sonification and sigil – For experimenters (prototype guidance)
 
-This note is written for researchers who may want to test the glycine sonification and sigil as
-**experimental stimuli**. It is not clinical advice, and the stimuli must not be treated as having
-established efficacy for sleep or thermoregulation.
+These notes outline suggested laboratory uses of the glycine sonification and sigil stimuli as exploratory tools. They do not constitute a clinical protocol or therapeutic recommendation. Any use in humans or animals requires prior approval from an appropriate ethics committee and written informed consent from participants.
 
 The current framework uses:
 
