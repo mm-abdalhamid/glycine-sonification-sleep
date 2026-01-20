@@ -79,7 +79,7 @@ python glycine_evaporation_zwitterion_5min_pk_kinetic_licensed.py
    - Load the predefined vibrational peak list for zwitterionic glycine.
    - Map peaks to audio frequencies and apply the pharmacokinetic (PK) envelope described in the manuscript.
    - Render a five-minute stereo WAV file.
-4. The output file (e.g. `glycine_evaporation_zwitterion_5min_pk_kinetic.wav`) will be placed in the `audio/` directory.
+4. The output file (e.g. `glycine_evaporation_zwitterion_5min_pk_kinetic.wav`) will be placed in the `Audio/` directory.
 
 If you wish to reproduce the original evaporation-only prototype instead, you can run:
 
@@ -107,7 +107,7 @@ This script generates a five-minute MP4 video of the glycine sigil using the sam
 To add narration to the sigil:
 
 1. Ensure you have:
-   - The narration audio file in `audio/` (e.g. `glycine_sigil_narration.wav`)
+   - The narration audio file in `Audio/` (e.g. `glycine_sigil_narration.wav`)
 
 The original evaporation-based sigil script (`glycine_sigil_evaporation_5min_rotating_legend.py`)
 is also included for historical and comparative purposes.
@@ -166,7 +166,7 @@ You are free to share and adapt the audio and video materials for **non-commerci
 
 If you use this repository or its derived stimuli in academic work, please cite the Zenodo record, for example:
 
-> AbdAlhamid MM. Zwitterionic glycine vibrational sonification and sleep-linked audio–visual stimuli (code, audio, sigil) [Dataset]. Zenodo. 2025. DOI: 10.5281/zenodo.17948540.
+> AbdAlhamid MM. Zwitterionic glycine vibrational sonification and sleep-linked audio–visual stimuli (code, audio, sigil) [Dataset]. Zenodo. 2025. DOI: 10.5281/zenodo.17990315.
 
 In addition, please cite the main manuscript describing the methods and results once published.
 
