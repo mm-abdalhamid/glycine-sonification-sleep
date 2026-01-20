@@ -143,7 +143,7 @@ For a more detailed, non-prescriptive guide to possible study designs and outcom
 
 A citable, versioned archive of this repository (code, audio, video, and text files) is provided via Zenodo:
 
-* DOI: 10.5281/zenodo.17948540
+* DOI: 10.5281/zenodo.17990315
 
 The GitHub repository and the Zenodo snapshot contain the same core materials. The manuscript cites the Zenodo record as the primary data and code availability reference.
 
