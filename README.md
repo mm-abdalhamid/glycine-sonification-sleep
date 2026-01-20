@@ -3,6 +3,7 @@
        alt="Glycine PK sigil logo" width="200">
 </p>
  Glycine Vibrational Sonification and Sleep-Linked Stimul
+ 
 
 This repository contains the code, audio files, visual sigils, and narration text used to generate and evaluate a zwitterionic glycine vibrational sonification sequence and its corresponding five-minute rotating sigil.
 
