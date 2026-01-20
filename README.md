@@ -112,13 +112,14 @@ To add narration to the sigil:
 The original evaporation-based sigil script (`glycine_sigil_evaporation_5min_rotating_legend.py`)
 is also included for historical and comparative purposes.
    - The silent sigil video in `video/` (e.g. `sigil_5min_vib_only.mp4`)
-2. Run the combination script:
+2. Combine narration + video with `ffmpeg` (example):
 
 ```bash
-python glycine_combine_video_audio.py
+ffmpeg -i video/sigil_5min_vib_only.mp4 -i Audio/glycine_sigil_narration.wav \
+  -c:v copy -c:a aac -b:a 192k -shortest video/sigil_5min_vib_narration.mp4
 ```
 
-This script (or an equivalent `ffmpeg` command inside it) will mux the narration onto the sigil video and produce `sigil_5min_vib_narration.mp4` in the `video/` directory.
+This will mux the narration onto the sigil video and create `sigil_5min_vib_narration.mp4` in `video/`.
 
 ---
 
