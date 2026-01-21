@@ -153,9 +153,9 @@ The GitHub repository and the Zenodo snapshot contain the same core materials. T
 
 ## Licensing
 
-- **Code (Python scripts and parameter files)**: MIT License (see `LICENSE`).
+- **Code (Python scripts and parameter files)**: MIT License (see `License.txt`).
 - **Manuscript-style text and static figures (if included)**: CC BY 4.0.
-- **Audio and video stimuli (WAV and MP4 files)**: CC BY-NC 4.0 (see `LICENSE`).
+- **Audio and video stimuli (WAV and MP4 files)**: CC BY-NC 4.0 (see `License.txt`).
 
 You are free to share and adapt the audio and video materials for **non-commercial** purposes, provided you give appropriate credit and indicate if changes were made.
 
