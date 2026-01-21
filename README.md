@@ -21,10 +21,10 @@ This repository is organized as:
 - `Code/`
   - Python scripts used to generate the audio stimuli and sigil videos, for example:
     - `glycine_evaporation_zwitterion_5min_pk_kinetic_licensed.py`  # main five-minute PK-based stimulus
-    - `glycine_evaporation_zwitterion_5min.py`  # original evaporation-only prototype
+    - `glycine_evaporation_zwitterion_5min_licensed.py`  # original evaporation-only prototype
     - `glycine_sigil_pk_5min_rotating_licensed.py`  # PK-envelope rotating sigil
-    - `glycine_sigil_evaporation_5min_rotating_legend.py`  # original evaporation-based sigil (legacy)
-    - `glycine_sigil_narration.py`
+    - `glycine_sigil_evaporation_5min_rotating_legend_licensed.py`  # original evaporation-based sigil (legacy)
+    - `glycine_sigil_narration_licensed.py`
     - `glycine_combine_video_audio.py`
 - `Audio/`
   - Exported WAV files, e.g.:
