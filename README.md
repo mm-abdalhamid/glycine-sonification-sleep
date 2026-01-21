@@ -84,7 +84,7 @@ python glycine_evaporation_zwitterion_5min_pk_kinetic_licensed.py
 If you wish to reproduce the original evaporation-only prototype instead, you can run:
 
 ```bash
-python glycine_evaporation_zwitterion_5min.py
+python glycine_evaporation_zwitterion_5min_licensed.py
 ```
 
 This legacy script uses the same vibrational mapping but a simpler evaporation-style amplitude envelope, without a pharmacokinetic model.
